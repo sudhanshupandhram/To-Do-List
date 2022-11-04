@@ -83,15 +83,6 @@ input:hover{
     border: 1px solid black;
 }
 
-#strikethrough{
-    height: 50px;
-    width: 50px;
-    background-color: transparent;
-    border: none;
-    padding-top: 0.3rem;
-    padding-right: 0.5rem;
-    text-decoration: line-through;
-}
 #edit{
     height: 40px;
     width: 40px;

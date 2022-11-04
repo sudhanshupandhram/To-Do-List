@@ -16,25 +16,6 @@ addButton.addEventListener('click', () => {
     todoText.innerText = inputField.value;
     toDoItems.appendChild(todoText);
 
-    todoText.addEventListener('click', ()=>{
-        todoText.classList.add('line-through');
-        editButton.setAttribute("disabled","disabled");
-    })
-
-    const strikethrough = document.createElement('button');
-    strikethrough.id = 'strikethrough';
-    const stImage = document.createElement('img');
-    stImage.src = 'strikethrough.svg';
-    strikethrough.appendChild(stImage);
-    toDoItems.appendChild(strikethrough);
-
-    strikethrough.addEventListener('click', ()=>{
-        
-        const parent = strikethrough.parentElement;
-        parent.parentElement.removeChild(parent);
-    });
-
-
     const editButton = document.createElement('button');
     editButton.id = 'edit';
     const editImage = document.createElement('img');
