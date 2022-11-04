@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: #352f5b; */
+    height: 100vh;
+    background-image: linear-gradient(to right,rgb(70, 73, 221),rgb(59, 207, 133));
+    background-repeat: no-repeat;
+}
+main{
+    padding: 60px 0;
+    color: black;
+    width: 50%;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 2rem;
+    width: 100%;   
+    text-shadow: 0 0 20px rgb(97, 241, 193);
+}
+h1:hover{
+    border-bottom: 3px solid black;
+}
+.toDoItems{
+    display: flex;
+    border: 0.15rem solid black;
+    padding-right: 0.9rem;
+}
+#todo-text{  
+    width: 100%;
+    font-size: 2rem;  
+    padding: 0.3rem;
+    margin-left: 0.5rem;
+}
+input{
+    width: 70%;
+    height: 40px;
+    margin: 0.1rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.1rem;
+    padding-left: 0.4rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    
+}
+input:hover{
+    border: 3px solid black;
+}
+#addToDo{
+    border: none;
+    background-color: rgb(76, 92, 241);
+    font-size: 1.5rem;
+    font-weight: 550;
+    padding: 0.2rem;
+    margin-left: 0.1rem;
+    width: 15%;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 3px 3px 5px rgb(2, 6, 19);
+    
+}
+#addToDo:hover{
+    border: 1px solid black;
+}
+
+#strikethrough{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    padding-top: 0.3rem;
+    padding-right: 0.5rem;
+    text-decoration: line-through;
+}
+#edit{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    padding-top: 0.6rem;
+    padding-right: 0.2rem;
+}
+#delete{
+    height:40px;
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    padding-top: 0.6rem;
+    padding-right: 0.2rem;   
+}
+
